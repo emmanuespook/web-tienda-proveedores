@@ -1,0 +1,264 @@
+.circle-shopping-cart{
+	background-color:#232980;
+	border-radius: 50%;
+	padding:1em 1em;
+}
+
+.navbar{
+	margin-bottom:0px;	
+}
+
+.no-margin{
+	margin:0px;
+}
+
+.no-padding{
+	padding:0px;
+}
+
+.big-padding{
+	padding:30px;
+}
+
+.no-transform{
+	text-transform:none;
+}
+
+.blue-grey{
+	background-color:#37474f;
+}
+
+.white{
+	background-color:white;
+}
+
+.white-text{
+	color:white;
+}
+
+.red-text{
+	color:rgb(200,50,50);
+}
+.blue-text{
+	color:blue;
+}
+
+.inline-block{
+	display:inline-block;
+}
+
+.table{
+	background-color:white;
+}
+
+.absolute{
+	position:absolute;
+}
+
+.floating{
+	position:fixed;
+	bottom:2em;
+	right:2em;
+	z-index:100;
+}
+
+.product{
+	width: 500px;
+	max-width: 100%;
+	padding: 1em;
+	position: relative;	
+}
+.product h2{
+		padding-bottom: 10px;
+		border-bottom: solid 1px;
+}
+
+.product .actions{
+		right:.5em;
+		top:10px;
+}
+.product .img_product{
+		max-width:100%;
+		height:150px;
+}
+
+
+
+.products-container{
+	.product{
+		margin-top: 1em;
+	}
+}
+//vista de producto 
+
+.viewproduct{
+	position: relative;
+
+
+	.img_viewproduct{
+	border:solid 4px;
+ 	max-width: 100%;
+	}
+
+	.info-prov{
+		text-align: center;
+		border:solid 3px;
+		border-color: #FF6500;
+
+	}
+
+}
+
+
+//perfil
+
+.opciones{
+	margin: 0;
+	border: solid 1px;
+}
+
+.tit-cuenta{
+
+	background-color: black;
+	color:white;
+
+	h2{
+		margin: 0;
+	}
+}
+.margin-orange{
+	border:solid 1px;
+	border-color:#FF6500;
+}
+.productPerf{
+	width: 500px;
+	max-width: 100%;
+	padding: 1em;
+	position: relative;
+	h3{
+		padding-bottom: 10px;
+		border-bottom: solid 1px;
+	}
+	.img_product{
+		max-width:100%;
+	}
+}
+
+.pricing_table {
+    line-height: 150%; 
+    font-size: 12px; 
+    margin: 0 auto; 
+    width: 75%; 
+    max-width: 800px; 
+    padding-top: 10px;
+    margin-top: 100px;
+
+    
+}
+
+table.table2{
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -1px;
+    line-height: 1.2em;
+    border-collapse:collapse;
+    text-align:center;
+}
+.table2 thead th, .table2 tfoot td{
+    padding:20px 10px 40px 10px;
+    color:#fff;
+    font-size: 26px;
+    background-color:#222;
+    font-weight:normal;
+    border-right:1px dotted #666;
+    border-top:3px solid #666;
+    -moz-box-shadow:0px -1px 4px #000;
+    -webkit-box-shadow:0px -1px 4px #000;
+    box-shadow:0px -1px 4px #000;
+    text-shadow:0px 0px 1px #fff;
+    text-shadow:1px 1px 1px #000;
+}
+.table2 tfoot th{
+    padding:10px;
+    font-size:18px;
+    text-transform:uppercase;
+    color:#888;
+}
+.table2 tfoot td{
+    font-size:36px;
+    color:#EF870E;
+    border-top:none;
+    border-bottom:3px solid #666;
+    -moz-box-shadow:0px 1px 4px #000;
+    -webkit-box-shadow:0px 1px 4px #000;
+    box-shadow:0px 1px 4px #000;
+}
+.table2 thead th:empty{
+    background:transparent;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+.table2 thead :nth-last-child(1){
+    border-right:none;
+}
+.table2 thead :first-child,
+.table2 tbody :nth-last-child(1){
+    border:none;
+}
+.table2 tbody th{
+    text-align:right;
+    padding:10px;
+    color:#333;
+    text-shadow:1px 1px 1px #ccc;
+    background-color:#f9f9f9;
+}
+.table2 tbody td{
+    padding:10px;
+    background-color:#f0f0f0;
+    border-right:1px dotted #999;
+    text-shadow:-1px 1px 1px #fff;
+    text-transform:uppercase;
+    color:#333;
+}
+
+
+.logo{
+	max-width:100%;
+}
+
+.prueba{
+	max-width: 100%;
+}
+
+.imgc{
+	max-width: 100%;
+	height: 200px;
+}
+
+.bprueba{
+		height: 35px;
+        position:absolute;
+        right:0px;
+}
+
+.description_beneficios{
+	text-align: justify;
+}
+
+div.portada{
+	background-image: url('../../image/prueba_gratis.jpg'); 
+ 	background-repeat: no-repeat;	
+   background-size: 100% 100%;
+   width: 100%;
+   height: 400px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) { 
+	div.portada{
+		height: auto;
+	}
+
+}

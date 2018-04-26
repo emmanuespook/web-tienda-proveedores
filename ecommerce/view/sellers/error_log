@@ -1,0 +1,6 @@
+[19-Feb-2018 18:06:40 UTC] PHP Notice:  Undefined index: SESS_tipo in /home/freemexs/public_html/store/view/sellers/create.php on line 25
+[19-Feb-2018 18:06:40 UTC] PHP Stack trace:
+[19-Feb-2018 18:06:40 UTC] PHP   1. {main}() /home/freemexs/public_html/store/view/sellers/create.php:0
+[19-Feb-2018 18:07:09 UTC] PHP Notice:  Undefined index: SESS_tipo in /home/freemexs/public_html/store/view/sellers/create.php on line 25
+[19-Feb-2018 18:07:09 UTC] PHP Stack trace:
+[19-Feb-2018 18:07:09 UTC] PHP   1. {main}() /home/freemexs/public_html/store/view/sellers/create.php:0
